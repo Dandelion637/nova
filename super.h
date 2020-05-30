@@ -58,9 +58,9 @@ struct nova_super_block {
 
 #define SUPER_BLOCK_START       0 // Superblock
 #define	RESERVE_INODE_START	1 // Reserved inodes
-#define	JOURNAL_START		3 // journal pointer table
-#define	INODE_TABLE0_START	4 // inode table
-#define	INODE_TABLE1_START	5 // replica inode table
+#define	JOURNAL_START		5 // journal pointer table
+#define	INODE_TABLE0_START	3 // inode table
+#define	INODE_TABLE1_START	4 // replica inode table
 
 /* For replica super block and replica reserved inodes */
 #define	TAIL_RESERVED_BLOCKS	2
